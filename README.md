@@ -30,7 +30,7 @@ To import existing script from Splunk Observability Cloud
 
 1. define empty resource in a .tf file
 
-        resource "synthetics_create_browser_check_v2" "test" {}
+        resource "synthetics_create_browser_check_v2" "example_name" {}
 
 2. obtain sytnthetic test ID from the URL in Splunk Observability Cloud
 
@@ -38,7 +38,7 @@ To import existing script from Splunk Observability Cloud
 
 3. import existing script by running the following command from the command line:
 
-        terraform import synthetics_create_browser_check_v2.test "<synthetic_test_id>"
+        terraform import synthetics_create_browser_check_v2.example_name "<synthetic_test_id>"
 
 4. (Optional) List objects in current state
 
@@ -46,7 +46,7 @@ To import existing script from Splunk Observability Cloud
 
 5. Show the imported synthetic test object:
 
-        terraform state show synthetics_create_browser_check_v2.test
+        terraform state show synthetics_create_browser_check_v2.example_name
 
 6. Overwrite the empty resource definition that you created in step 1 with the output from the command above
 
