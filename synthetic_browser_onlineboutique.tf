@@ -46,7 +46,6 @@ resource "synthetics_create_browser_check_v2" "online_boutique" {
             name = "W3schools - Main Page"
 
             steps {
-                duration             = 0
                 name                 = "Go to W3Schools"
                 type                 = "run_javascript"
                 value                = "window.open(\"https://www.w3schools.com\",\"_self\");"
