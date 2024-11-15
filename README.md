@@ -1,5 +1,7 @@
 # tf_synthetic_browser_test_example
 
+Follow these steps to run this script and create an example browser test via Terraform:
+
 1. Create your "terraform.tfvars" file from the template file: terraform.tfvars.template
 
         cp terraform.tfvars.template terraform.tfvars
