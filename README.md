@@ -1,5 +1,7 @@
 # tf_synthetic_browser_test_example
 
+You can find the Splunk Synthetics terraform provider documentation here: https://registry.terraform.io/providers/splunk/synthetics/latest/docs
+
 Follow these steps to run this script and create an example browser test via Terraform:
 
 1. Create your "terraform.tfvars" file from the template file: terraform.tfvars.template
@@ -8,9 +10,10 @@ Follow these steps to run this script and create an example browser test via Ter
 
 2. Set your auth token and org id in the terraform.tfvars file
 
-    > Replace "<API_KEY>" with your API token from Splunk Observability Cloud.
+    > Replace "\<API_KEY>" with your API token from Splunk Observability Cloud. Replace "\<REALM>" (you can obtain this from the URL or by selecting My Profile -> Organizations -> Realm in the UI. Example: "us1")
 
         api_key = <API_KEY>
+        realm = <REALM>
 
 3. Run 
         terraform init

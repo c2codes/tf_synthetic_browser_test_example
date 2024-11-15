@@ -9,6 +9,6 @@ terraform {
 
 provider "synthetics" {
   product = "observability"
-  realm = "us1"
+  realm = var.realm
   apikey = var.api_key
 }
