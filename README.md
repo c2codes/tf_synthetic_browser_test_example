@@ -26,6 +26,8 @@ Follow these steps to run this script and create an example browser test via Ter
 
 -------
 
+Import documentation here: [Terraform docs](https://developer.hashicorp.com/terraform/cli/import/usage)
+
 To import existing script from Splunk Observability Cloud
 
 1. define empty resource in a .tf file
